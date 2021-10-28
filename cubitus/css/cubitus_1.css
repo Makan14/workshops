@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+
+.bleu, .rouge{
+    border: 3px solid black;
+    border-radius: 20%;
+    width: 30vh;
+    height: 30vh;
+    text-align: center;
+    color: white;
+    float: left;
+    margin: 0.5vh;
+    /*transition: margin 0.5s;*/
+
+}
+
+.bleu:hover, .rouge:hover{
+    margin-top: 10vh;
+}
+
+.bleu{
+    background-color: rgba(91, 0, 209, 0.795);
+}
+
+.rouge{
+    background-color: #4bff9c; 
+}
+
+.clear{
+    clear: both;
+}
