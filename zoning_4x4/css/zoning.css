@@ -1,0 +1,47 @@
+header, nav, footer{
+    background-color: #FFA07A;
+    text-align: center;
+    width: 50%;
+    height: 50px;
+    margin: 0 auto;
+    color: white;
+}
+
+nav{
+    background-color: #000;
+}
+
+section{
+    background-color: #7FFFD4;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.zone1, .zone2, .zone3, .zone4, .zone5, .zone6, .zone7, .zone8, .zone9, .zone10, .zone11, .zone12, .zone13, .zone14, .zone15, .zone16{
+    width: 25%;
+    height: 38px;
+    float: left;
+}
+
+.zone1, .zone2, .zone5, .zone6{
+    background-color: rgb(38, 0, 255);
+    
+}
+
+.zone3, .zone4, .zone7, .zone8{
+    background-color: rgb(187, 199, 16);
+    
+}
+
+.zone9, .zone10, .zone13, .zone14{
+    background-color: rgb(43, 255, 0);
+}
+
+.zone11, .zone12, .zone15, .zone16{
+    background-color: rgb(255, 51, 0);
+}
+
+
+.clear{
+    clear: both;
+}
