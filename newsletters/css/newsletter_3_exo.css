@@ -1,0 +1,51 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+thead{
+    background: #000;
+    display: inline-block;
+    width: 1410px;
+    height: 560px;
+}
+
+.t1{
+    padding: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.g1{
+    display: inline-block;
+    width: 50px;
+    height: 650px;
+    padding: 0 250px;
+}
+
+.gg{
+    display: inline-block;
+    padding: 40px 200px;
+}
+
+.g2, .g3, .g4{
+    display: flex;
+}
+
+.g3{
+    text-align: right;
+    
+}
+
+.g2, .g4{
+    padding: 10px 40px;
+}
+
+img{
+    border-radius: 80px 80px 80px 80px;
+}

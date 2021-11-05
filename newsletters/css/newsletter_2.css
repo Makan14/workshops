@@ -1,0 +1,25 @@
+
+
+table{
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+thead{
+    width: 650px;
+    height: 150px;
+    text-align: center;
+}
+
+.txt{
+    color: rgb(173, 173, 173);
+    padding: 40px;   
+}
+
+a{
+    display: inline-block;
+    margin-top: 60px;
+    margin-bottom: 110px;
+}
+
