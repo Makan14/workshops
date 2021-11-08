@@ -5,6 +5,11 @@ body{
 table{
     border-collapse: collapse;
     border: 1px solid black;
+    background: rgb(147,148,149);
+    background: -moz-radial-gradient(circle, rgba(147,148,149,1) 71%, rgba(38,38,38,1) 94%);
+    background: -webkit-radial-gradient(circle, rgba(147,148,149,1) 71%, rgba(38,38,38,1) 94%);
+    background: radial-gradient(circle, rgba(147,148,149,1) 71%, rgba(38,38,38,1) 94%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#939495",endColorstr="#262626",GradientType=1); 
 }
 
 thead{
@@ -39,6 +44,7 @@ thead{
 
 .g3{
     text-align: right;
+    padding-left: 380px;
     
 }
 
@@ -48,4 +54,27 @@ thead{
 
 img{
     border-radius: 80px 80px 80px 80px;
+    box-shadow: 10px 10px 10px rgb(114, 114, 114);
+}
+
+tfoot{
+    background: #000;
+    height: 180px;
+}
+
+.social{
+   display: inline-block;
+   padding-top: 90px;
+   padding-left: 700px;
+   
+}
+
+.social a{
+    color: white;
+    height: 200px;
+    width: 200px;
+}
+
+.p1, .p2, .p3{
+    padding-top: 60px;
 }
