@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;  
+}
+
+body{
+    height: 150vh;
+}
+
+.carre1{
+    background: blue;
+    width: 75px;
+    height: 75px;
+    position: fixed;
+    right: 0;
+}
+
+.carre2{
+    background:red;
+    width: 75px;
+    height: 75px;
+    position: relative;
+      
+}
+
+.carre3{
+    background: green;
+    width: 75px;
+    height: 75px;
+    position: fixed;
+    bottom: 0; 
+}
+
+.carre4{
+    background: yellow;
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.triangle{
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 150px solid pink;
+    border-right : 87px solid transparent;
+    border-left : 87px solid transparent;
+    position: fixed;
+    top: 0;
+    margin-top: 80px;
+    
+}
+
+.rond{
+    background: lightgrey;
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    position: relative;
+    top: 90px;
+}
+
+.ombre{
+    background: lightblue;
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;    
+}
+
+.rond, .ombre{
+    position: relative;
+    left: 60%;
+    
+}
+
+.conteneur{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    
+}
