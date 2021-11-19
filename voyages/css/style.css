@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+*{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    width: 70%;
+    margin: 0 auto;
+}
+
+:root{
+    --greenlightblue: rgb(45, 253, 149), rgb(34,193,195);
+    --pinkblue: rgb(191,129,148), rgb(86,166,241);
+    --greenblue: rgb(97,227,194), rgb(70,134,195);
+    --ocherblue: rgb(226,132,23) rgb(92,144,181);
+}
+
+/*--------------HEADER-------------*/
+header{   
+    background: linear-gradient(180deg, var(--greenlightblue));
+    color: white;
+}
+
+.oiseaux{
+    width: 3%;
+    /*box-shadow: -1px 2px 20px 0px #000000;*/
+}
+
+nav{
+    display: flex;
+    
+}
+ 
+nav a{
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;   
+}
+
+nav ul li{
+    display: flex; 
+    padding: 0 1%;
+}
+
+marquee{
+    border: 3px double white;
+}
+
+/*-----------------SECTION----------------*/
+
+#japon{
+    background: linear-gradient(0deg, var(--pinkblue));
+    border-radius: 10px 10px 10px 10px;
+}
+
+#thailande{
+    background: linear-gradient(0deg, var(--greenblue));
+    border-radius: 10px 10px 10px 10px;
+}
+
+#inde{
+    border-radius: 10px 10px 10px 10px;
+    background: linear-gradient(0deg, var(--ocherblue));
+}
+
+.box-fluid{
+    margin: 2% 0;
+    display: flex;
+    padding: 3% 5%;
+}
+
+/*----IMAGE------*/
+.imgJapon, .imgThailande, .imgInde{
+    border-radius: 50%;
+}
+
+.imgJapon{
+    width: 80%;   
+    margin: 5% 1% 2% 3%;    
+}
+
+.imgThailande{
+    width: 40%;
+    height: 260px;
+    
+}
+.imgInde{
+    width: 50%;
+}
+
+/*----TEXTE------*/
+.txtJapon{
+    margin: 2% 4% 2% 8%;
+}
+
+.txtThai{
+    margin: 2% 4% 2% 8%;
+}
+
+.txtThai, .titreThailande{
+    text-align: center;
+}
+
+.txtInde{
+    margin: 2% 8% 2% 8%;
+    text-align: right;   
+}
+
+/*----TEXTE------*/
+.titreJapon{
+    margin-left: 8%;
+}
+
+.titreInde{
+    margin-left: 86%;
+}
+
+/*--------------------FOOTER------------------*/
+.boiteBas{
+    background: linear-gradient(0deg, var(--greenblue));
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3%;
+}
+
+#social ul{
+    display: flex;
+    padding: 0 1%;
+}
+
+#social ul li{
+    padding: 0 3%;
+    font-size: 110%;
+}
+
+
