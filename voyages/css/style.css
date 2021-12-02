@@ -30,28 +30,29 @@ header{
     color: white;
 }
 
+.logo_travel{
+    display: flex;
+}
+
 .oiseaux{
-    width: 3%;
+    width: 5%;
     /*box-shadow: -1px 2px 20px 0px #000000;*/
 }
 
-nav{
+.boiteHaut{
     display: flex;
-    
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
 }
  
-nav a{
-    color: white;
-}
-
 nav ul{
     display: flex;
-    justify-content: flex-end;   
+    justify-content: space-around;   
 }
 
-nav ul li{
-    display: flex; 
-    padding: 0 1%;
+nav a{
+    color: white;
 }
 
 marquee{
@@ -68,11 +69,12 @@ marquee{
 #thailande{
     background: linear-gradient(0deg, var(--greenblue));
     border-radius: 10px 10px 10px 10px;
+    /*height: 390px;*/
 }
 
 #inde{
+    background: linear-gradient(0deg, var(--ocherblue)); 
     border-radius: 10px 10px 10px 10px;
-    background: linear-gradient(0deg, var(--ocherblue));
 }
 
 .box-fluid{
@@ -88,16 +90,19 @@ marquee{
 
 .imgJapon{
     width: 80%;   
-    margin: 5% 1% 2% 3%;    
+    margin: 5% 1% 2% 3%;
+    object-fit: fill;    
 }
 
 .imgThailande{
     width: 40%;
     height: 260px;
-    
+    object-fit: initial;   
 }
+
 .imgInde{
     width: 50%;
+    object-fit: initial;
 }
 
 /*----TEXTE------*/
@@ -106,7 +111,7 @@ marquee{
 }
 
 .txtThai{
-    margin: 2% 4% 2% 8%;
+    margin: 2% 24% 2% -2%;
 }
 
 .txtThai, .titreThailande{
@@ -118,7 +123,7 @@ marquee{
     text-align: right;   
 }
 
-/*----TEXTE------*/
+/*----TITRE------*/
 .titreJapon{
     margin-left: 8%;
 }
@@ -127,13 +132,20 @@ marquee{
     margin-left: 86%;
 }
 
+.titreThailande{
+    margin-left: -24%;
+}
+
+
+
 /*--------------------FOOTER------------------*/
 .boiteBas{
     background: linear-gradient(0deg, var(--greenblue));
     color: white;
     display: flex;
     justify-content: space-between;
-    padding: 0 3%;
+    align-items: center;
+    padding: 0 4%;
 }
 
 #social ul{
@@ -143,7 +155,66 @@ marquee{
 
 #social ul li{
     padding: 0 3%;
-    font-size: 110%;
+    font-size: 1.5em;
 }
 
 
+/*---------------RESPONSIVE---------------*/
+/*bouton menu*/
+.menu{
+    position: relative;
+    right: auto;
+    font-size: 2em;
+    display: none;
+    cursor: pointer;
+}
+
+/*******PORTABLE*******/
+@media (max-width: 600px){
+    /*----HEADER----*/
+    .logo_travel{
+        justify-content: center;
+    }
+
+    .menu{
+        display: block;
+        margin-right: 5%;       
+    }
+
+    nav{
+        display: none;
+    }
+
+    .box{
+        padding: 70% 5%;
+    }
+
+    /*-----IMAGES-----*/
+    .imgJapon{
+        position: relative;
+        height: 200px;
+        width: 150px;     
+    }
+
+    .imgThai{
+        position: relative;
+        height: 200px;
+        width: 300px;
+    }
+
+    .imgInde{
+        position: relative;
+        height: 200px;
+        width: 150px;
+    }
+
+    /*----TEXTES-----*/
+    .txtThai{
+        margin: 10% 1% 1% 1%;
+    }
+
+    .txtJapon{
+        
+    }
+
+}

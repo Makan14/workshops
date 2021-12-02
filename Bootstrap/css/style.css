@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/**********NAVBAR***********/
+nav{
+    background: #000;
+}
+.imgLogo{
+    height: 60px;;
+}
+
+.collapse ul{
+    margin: 0 auto; /**centrer ls liens*/
+}
+
+.d-flex button{
+    background: #000;
+    color: orange;
+    border: 1px solid orange;
+}
+
+
+
+/********BANNER************/
+.banner{
+    background-image: url(../consignes/img/banner-buisnessman.jpg);
+    color: white;
+    height: 700px;
+}
+
+.banner h1{
+    color: white;
+}
+
+/*******ARROW********/
+.arrowDown{
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+}
+
+/********OUR PROJETS********/
+.btn{
+    color: orange; 
+}
+
+.card3{
+    width: 80%;
+    height: 100%;
+    
+}
+
+/***********FORMULAIRE***********/
+.form-input{
+    background: grey;
+    width: 40%;
+    display: flex;
+    margin: 10px 10px;
+}
+
+.form-input input{
+    margin: 0 10px;
+}
+
+.form-group{
+    width: 40%;
+}
+
+.form-adresse{
+    width: 40%;
+    margin: 20px 0;
+}
+
+.btn-xl{
+    width: 40%;
+}
+
