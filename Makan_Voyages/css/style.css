@@ -48,7 +48,8 @@ header{
  
 nav ul{
     display: flex;
-    justify-content: space-around;   
+    justify-content: space-around;
+   
 }
 
 nav a{
@@ -77,7 +78,7 @@ marquee{
     border-radius: 10px 10px 10px 10px;
 }
 
-.box-fluid{
+#japon, #thailande, #inde{
     margin: 2% 0;
     display: flex;
     padding: 3% 5%;
@@ -171,6 +172,18 @@ marquee{
 
 /*******PORTABLE*******/
 @media (max-width: 600px){
+    :root{
+
+    }
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    html{
+        scroll-behavior: smooth;
+    }
     /*----HEADER----*/
     .logo_travel{
         justify-content: center;
@@ -185,10 +198,6 @@ marquee{
         display: none;
     }
 
-    .box{
-        padding: 70% 5%;
-    }
-
     /*-----IMAGES-----*/
     .imgJapon{
         position: relative;
@@ -196,10 +205,11 @@ marquee{
         width: 150px;     
     }
 
-    .imgThai{
-        position: relative;
+    .imgThailande{
+        width: 150px;
         height: 200px;
-        width: 300px;
+        margin: 0 auto;
+
     }
 
     .imgInde{
@@ -213,8 +223,49 @@ marquee{
         margin: 10% 1% 1% 1%;
     }
 
-    .txtJapon{
+    /*------ID JAPON THAILANDE INDE-------*/
+    #japon{
+        flex-wrap: wrap;
+        justify-content: center;
         
     }
+
+    #thailande{
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column-reverse;
+        margin: 15% 0;
+    }
+
+    #inde{
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+
+    .box{
+        padding: 10% 0;
+        text-align: center;
+    }
+
+    /*------------FOOTER----------*/
+    .boiteBas{
+        padding: 2%;
+        font-size: 1.5em;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .boiteBas p{
+        padding: 2%;
+        text-align: center;
+    }
+
+    #social ul{
+        flex-wrap: wrap;
+        padding: 0 10%;
+        font-size: 1em;
+    }
+    
 
 }
