@@ -7,8 +7,13 @@
 nav{
     background: #000;
 }
+
 .imgLogo{
     height: 60px;;
+}
+
+.navbar-brand{
+    font-size: 30px;
 }
 
 .collapse ul{
@@ -21,13 +26,13 @@ nav{
     border: 1px solid orange;
 }
 
-
-
-/********BANNER************/
+/********BANNER*********/
 .banner{
     background-image: url(../consignes/img/banner-buisnessman.jpg);
     color: white;
     height: 700px;
+    text-align: center;
+
 }
 
 .banner h1{
@@ -49,20 +54,32 @@ nav{
 
 .card3{
     width: 80%;
+    height: 50%;   
+}
+
+/*******OUR COMPANY*******/
+.img-fluid{
     height: 100%;
+    width: 100%;
+}
+
+
+/***********FORMULAIRE***********/
+
+form{
+    height: 200%;
+    margin: 50px 0;
     
 }
 
-/***********FORMULAIRE***********/
 .form-input{
     background: grey;
     width: 40%;
     display: flex;
     margin: 10px 10px;
-}
-
-.form-input input{
-    margin: 0 10px;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .form-group{
@@ -76,5 +93,30 @@ nav{
 
 .btn-xl{
     width: 40%;
+    height: 50px;
+}
+
+/*********FOOTER**********/
+.flex{
+    display: flex;
+    height: 200%;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(59, 59, 59);
+    color: white;
+    font-size: 30px;
+}
+
+footer ul li{
+    list-style-type: none;
+    padding: 0 10px;
+}
+
+footer p{
+    padding: 0 10px;
+}
+
+.social ul{
+    display: flex;  
 }
 
